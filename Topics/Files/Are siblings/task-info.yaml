@@ -1,0 +1,53 @@
+type: code
+custom_name: Are siblings?
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.io.File;
+
+    class Siblings {
+
+        public static boolean areSiblings(File f1, File f2) {
+            // implement me
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8095#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:4: error: cannot find symbol
+        public static boolean areSiblings(File f1, File f2) {
+                                          ^
+      symbol:   class File
+      location: class Siblings
+    Main.java:4: error: cannot find symbol
+        public static boolean areSiblings(File f1, File f2) {
+                                                   ^
+      symbol:   class File
+      location: class Siblings
+    Main.java:16: error: cannot find symbol
+            File f1 = new File(first);
+            ^
+      symbol:   class File
+      location: class FileUtil
+    Main.java:16: error: cannot find symbol
+            File f1 = new File(first);
+                          ^
+      symbol:   class File
+      location: class FileUtil
+    Main.java:17: error: cannot find symbol
+            File f2 = new File(second);
+            ^
+      symbol:   class File
+      location: class FileUtil
+    Main.java:17: error: cannot find symbol
+            File f2 = new File(second);
+                          ^
+      symbol:   class File
+      location: class FileUtil
+    6 errors
+  time: Mon, 02 Aug 2021 12:49:54 UTC
+record: -1
